@@ -12,9 +12,10 @@ public class movement : MonoBehaviour
     [SerializeField] float Sprint = 3;
 
     // Start is called before the first frame update
-    void Start()
+    void PrzykladMetody(int liczba)
     {
-        
+        Debug.Log("Napisana liczba to: " + liczba);
+
     }
 
     // Update is called once per frame
